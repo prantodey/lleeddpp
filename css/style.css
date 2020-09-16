@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Baloo Tammudu 2', cursive
+	margin: 0;
+	background: -moz-linear-gradient(-45deg,  rgba(105,219,139,1) 0%, rgba(105,219,139,0.72) 1%, rgba(105,219,139,0.79) 25%, rgba(105,219,139,0.83) 38%, rgba(229,61,140,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(105,219,139,1) 0%,rgba(105,219,139,0.72) 1%,rgba(105,219,139,0.79) 25%,rgba(105,219,139,0.83) 38%,rgba(229,61,140,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(105,219,139,1) 0%,rgba(105,219,139,0.72) 1%,rgba(105,219,139,0.79) 25%,rgba(105,219,139,0.83) 38%,rgba(229,61,140,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69db8b', endColorstr='#e53d8c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.container  {	
+	width: 1200px;
+	margin: 100px auto;
+	overflow: hidden;
+}
+
+.strong-2 {
+	background: #9d80806e;
+	padding: 100px 50px;
+	color: #fff;
+}
+
+
+p {
+	 font-size: 15px;
+    line-height: 1.6;
+}
+
+p strong {
+	background: blue;
+	color: #fff;
+	margin-bottom: 0px;
+	display: inline-block;
+	padding: 10px 15px;
+}
+.container a {
+	text-decoration: none;
+	text-transform: capitalize;
+	background: blue;
+	padding: 15px 20px;
+	display: inline-block;
+	color: #fff;
+}
+
+a:hover {
+	opacity: 0.9;
+	color: teal;
+
+}
+
+/*problem*/
+.box {
+	width: 25%;
+	float: left;
+	padding: 15px;
+}
+
+.content {
+	color: #fff;
+	padding: 15px 20px;
+	box-shadow: 05px 10px 45px 15px #00000021;
+}	
+
+
+/*problem*/
+
+
+
+
+.about-image {
+	background: teal;
+}
+
+
+.col {
+	width: 25%;
+	float: left;
+	padding: 20px;
+	box-shadow: 0px 0px 30px 0px black
+}
+
+.about-image img {
+	max-width: 100%;
+	display: inline-block;
+}
+
+.about-image h2 {
+	color: #fff;
+	font-weight: bold;
+	font-weight: 400px;
+	padding: 5px 0px;
+}
+
+.about-image p{
+	color: #fff;
+	font-weight: 100px;
+	line-height: #333;
+}
+
+.ledp {
+	background: #e6dede24;
+	color: #fff;
+	padding: 10px 40px;
+	border-radius: 30px;
+	text-transform: capitalize;
+}
+
+.ledp:hover {
+	transition: 0.9;
+	background: #333;
+	color: #fff;
+}
+
+.col:hover {
+	opacity: 0.3%;
+}
+
+
+
+
